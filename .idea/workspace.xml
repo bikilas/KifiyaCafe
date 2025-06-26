@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10a04bc5-a215-4f27-ab33-c1d673ee10d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/KifiyaCafeProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/config/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/config/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/config/JwtTokenValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/controller/CafeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/controller/FoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/controller/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/controller/cafeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/CafeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/CafeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/ChangePasswordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/FoodDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/ForgotPasswordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/OrderItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/ResetPasswordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/ServiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/exception/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Cafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/ContactInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/IngredientsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/IngredientsItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/OperatingHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/PasswordResetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/TblTransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/USER_ROLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/repository/CafeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/repository/FoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/repository/MenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/repository/PasswordResetTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/service/CafeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/service/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/service/PasswordResetTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/java/com/kifiya/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/test/java/com/kifiya/KifiyaCafeProjectApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kifiya-Cafe-Project/src/test/java/com/kifiya/controller/OrderControllerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bikilas&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bikilas/KifiyaCafe.git&quot;,
+    &quot;accountId&quot;: &quot;15030f43-4133-44c9-a371-e1dfe1fa2462&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2z3VAq5q1XwCkHWWKCk1CHY1ghL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/by/Downloads/KifiyaCafe"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.idea" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10a04bc5-a215-4f27-ab33-c1d673ee10d0" name="Changes" comment="" />
+      <created>1750959602759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750959602759</updated>
+    </task>
+    <servers />
+  </component>
+</project>
