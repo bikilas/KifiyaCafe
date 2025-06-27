@@ -20,5 +20,4 @@ public class Category {
    @ManyToOne
    @JsonIgnore
     private Cafe cafe;
-
 }
